@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        jdk 'JDK-17'
+        jdk 'JDK-17.0.8.1+1'
         nodejs 'node16'
         git 'Default'
     }
